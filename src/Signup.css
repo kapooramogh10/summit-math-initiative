@@ -1,0 +1,519 @@
+.signup-page {
+  background: var(--off-white);
+}
+
+.signup-hero {
+  padding: 100px 9%;
+  background:
+    radial-gradient(
+      circle at 88% 12%,
+      rgba(52, 120, 229, 0.16),
+      transparent 28%
+    ),
+    linear-gradient(115deg, #f8fafc, #e7f1fc);
+}
+
+.signup-hero h1 {
+  max-width: 1000px;
+  margin: 0;
+  color: var(--navy-950);
+  font-size: clamp(3.2rem, 6vw, 6.5rem);
+  letter-spacing: -0.065em;
+  line-height: 0.99;
+}
+
+.signup-hero-description {
+  max-width: 830px;
+  margin: 30px 0 0;
+  color: var(--gray-700);
+  font-size: 1.12rem;
+  line-height: 1.8;
+}
+
+.signup-highlights {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  max-width: 1050px;
+  margin-top: 55px;
+  border: 1px solid var(--gray-200);
+  border-radius: 22px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.signup-highlights div {
+  padding: 28px;
+  border-right: 1px solid var(--gray-200);
+}
+
+.signup-highlights div:last-child {
+  border-right: none;
+}
+
+.signup-highlights strong,
+.signup-highlights span {
+  display: block;
+}
+
+.signup-highlights strong {
+  color: var(--navy-950);
+  font-size: 1.05rem;
+}
+
+.signup-highlights span {
+  margin-top: 8px;
+  color: var(--gray-700);
+  font-size: 0.88rem;
+  line-height: 1.5;
+}
+
+.signup-courses {
+  padding: 110px 9%;
+  background: var(--white);
+}
+
+.signup-section-heading {
+  max-width: 850px;
+  margin-bottom: 55px;
+}
+
+.signup-section-heading h2 {
+  margin: 0;
+  color: var(--navy-950);
+  font-size: clamp(2.5rem, 4.5vw, 4.8rem);
+  letter-spacing: -0.055em;
+  line-height: 1.05;
+}
+
+.signup-course-grid {
+  display: grid;
+  gap: 35px;
+}
+
+.signup-course-card {
+  padding: 50px;
+  border: 1px solid var(--gray-200);
+  border-radius: 30px;
+  background: var(--off-white);
+}
+
+.signup-featured-course {
+  border-color: rgba(52, 120, 229, 0.35);
+  background:
+    linear-gradient(
+      135deg,
+      rgba(233, 242, 252, 0.8),
+      rgba(255, 255, 255, 0.95)
+    );
+  box-shadow: var(--shadow);
+}
+
+.signup-course-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.signup-course-label {
+  display: block;
+  margin-bottom: 15px;
+  color: var(--blue-600);
+  font-size: 0.76rem;
+  font-weight: 850;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.signup-course-card h2 {
+  margin: 0;
+  color: var(--navy-950);
+  font-size: clamp(2.4rem, 5vw, 4.8rem);
+  letter-spacing: -0.055em;
+  line-height: 1.03;
+}
+
+.signup-free-badge,
+.signup-online-badge {
+  flex-shrink: 0;
+  padding: 9px 15px;
+  border-radius: 999px;
+  background: var(--blue-100);
+  color: var(--blue-600);
+  font-size: 0.75rem;
+  font-weight: 850;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.signup-course-description {
+  max-width: 1000px;
+  margin: 28px 0 0;
+  color: var(--gray-700);
+  font-size: 1.05rem;
+  line-height: 1.82;
+}
+
+.signup-course-details {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin: 42px 0;
+  border-top: 1px solid var(--gray-200);
+  border-left: 1px solid var(--gray-200);
+}
+
+.signup-course-details div {
+  min-height: 125px;
+  padding: 24px;
+  border-right: 1px solid var(--gray-200);
+  border-bottom: 1px solid var(--gray-200);
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.signup-course-details span,
+.signup-course-details strong {
+  display: block;
+}
+
+.signup-course-details span {
+  margin-bottom: 10px;
+  color: var(--blue-600);
+  font-size: 0.73rem;
+  font-weight: 850;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.signup-course-details strong {
+  color: var(--navy-950);
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
+.signup-schedule-box {
+  margin-top: 42px;
+  padding: 32px;
+  border-radius: 22px;
+  background: var(--navy-950);
+  color: var(--white);
+}
+
+.signup-schedule-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.signup-schedule-heading div > span,
+.signup-schedule-heading div > strong {
+  display: block;
+}
+
+.signup-schedule-heading div > span {
+  color: #a9d2ff;
+  font-size: 0.76rem;
+  font-weight: 850;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.signup-schedule-heading div > strong {
+  margin-top: 7px;
+  font-size: 1.6rem;
+}
+
+.signup-online-badge {
+  background: rgba(255, 255, 255, 0.12);
+  color: #a9d2ff;
+}
+
+.signup-schedule-columns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 45px;
+  padding-top: 30px;
+}
+
+.signup-schedule-columns h3 {
+  margin: 0;
+  font-size: 1.35rem;
+}
+
+.signup-schedule-columns p {
+  margin: 10px 0;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.signup-schedule-columns span {
+  display: block;
+  color: rgba(255, 255, 255, 0.68);
+  line-height: 1.6;
+}
+
+.signup-schedule-columns strong {
+  display: block;
+  margin-top: 15px;
+  color: #a9d2ff;
+  font-size: 0.88rem;
+}
+
+.signup-closed-course {
+  border-color: var(--gray-200);
+  background: var(--gray-100);
+}
+
+.signup-closed-label {
+  color: var(--gray-500);
+}
+
+.signup-closed-badge {
+  flex-shrink: 0;
+  padding: 9px 15px;
+  border-radius: 999px;
+  background: var(--gray-200);
+  color: var(--gray-700);
+  font-size: 0.75rem;
+  font-weight: 850;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.signup-closed-note {
+  margin: 22px 0 0;
+  padding: 14px 18px;
+  border: 1px solid var(--gray-200);
+  border-radius: 14px;
+  background: var(--white);
+  color: var(--gray-700);
+  font-size: 0.92rem;
+  font-weight: 650;
+  line-height: 1.6;
+}
+
+.signup-schedule-box-closed {
+  background: var(--gray-500);
+}
+
+.signup-schedule-box-closed .signup-schedule-columns {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.signup-button.signup-button-disabled {
+  background: var(--gray-200);
+  color: var(--gray-500);
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.signup-button {
+  display: inline-flex;
+  min-height: 52px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 25px;
+  border-radius: 999px;
+  background: var(--navy-900);
+  color: var(--white);
+  font-weight: 750;
+  transition:
+    background 0.2s ease,
+    transform 0.2s ease;
+}
+
+.signup-button:hover {
+  background: var(--blue-600);
+  transform: translateY(-3px);
+}
+
+.signup-tutoring {
+  padding: 100px 9%;
+  background: var(--off-white);
+}
+
+.signup-tutoring-card {
+  max-width: 900px;
+  padding: 50px;
+  border: 1px solid rgba(52, 120, 229, 0.35);
+  border-radius: 30px;
+  background:
+    linear-gradient(
+      135deg,
+      rgba(233, 242, 252, 0.8),
+      rgba(255, 255, 255, 0.95)
+    );
+  box-shadow: var(--shadow);
+}
+
+.signup-tutoring-card h2 {
+  margin: 15px 0 0;
+  color: var(--navy-950);
+  font-size: clamp(2.2rem, 4vw, 3.2rem);
+  letter-spacing: -0.055em;
+  line-height: 1.05;
+}
+
+.signup-tutoring-description {
+  max-width: 700px;
+  margin: 22px 0 0;
+  color: var(--gray-700);
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.signup-tutoring-description a {
+  color: var(--blue-600);
+  font-weight: 750;
+}
+
+.signup-tutoring-card .signup-button {
+  margin-top: 30px;
+}
+
+.signup-process {
+  padding: 100px 9%;
+  background: var(--blue-600);
+  color: var(--white);
+}
+
+.signup-process-heading {
+  max-width: 900px;
+}
+
+.signup-process-heading h2 {
+  margin: 0;
+  font-size: clamp(2.5rem, 4.5vw, 4.8rem);
+  letter-spacing: -0.055em;
+  line-height: 1.05;
+}
+
+.signup-light-eyebrow {
+  color: #c9e3ff;
+}
+
+.signup-steps {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 25px;
+  margin: 55px 0 40px;
+}
+
+.signup-steps article {
+  padding: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.signup-steps article > span {
+  color: #c9e3ff;
+  font-size: 0.78rem;
+  font-weight: 850;
+}
+
+.signup-steps h3 {
+  margin: 30px 0 15px;
+  font-size: 1.4rem;
+}
+
+.signup-steps p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.78);
+  line-height: 1.7;
+}
+
+.signup-light-button {
+  display: inline-flex;
+  min-height: 52px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 25px;
+  border-radius: 999px;
+  background: var(--white);
+  color: var(--navy-950);
+  font-weight: 750;
+  transition:
+    box-shadow 0.2s ease,
+    transform 0.2s ease;
+}
+
+.signup-light-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 15px 35px rgba(11, 31, 58, 0.22);
+}
+
+@media (max-width: 1000px) {
+  .signup-highlights {
+    grid-template-columns: 1fr;
+  }
+
+  .signup-highlights div {
+    border-right: none;
+    border-bottom: 1px solid var(--gray-200);
+  }
+
+  .signup-highlights div:last-child {
+    border-bottom: none;
+  }
+
+  .signup-course-details {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .signup-steps {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 700px) {
+  .signup-hero,
+  .signup-courses,
+  .signup-tutoring,
+  .signup-process {
+    padding-right: 7%;
+    padding-left: 7%;
+  }
+
+  .signup-tutoring-card {
+    padding: 35px 24px;
+  }
+
+  .signup-hero {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .signup-hero h1 {
+    font-size: clamp(3rem, 14vw, 4.7rem);
+  }
+
+  .signup-course-card {
+    padding: 35px 24px;
+  }
+
+  .signup-course-top,
+  .signup-schedule-heading {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .signup-course-details,
+  .signup-schedule-columns {
+    grid-template-columns: 1fr;
+  }
+
+  .signup-button,
+  .signup-light-button {
+    width: 100%;
+  }
+  .signup-no-class-note {
+  margin: 28px 0 0;
+  padding-top: 22px;
+  border-top: 1px solid rgba(255, 255, 255, 0.18);
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+}

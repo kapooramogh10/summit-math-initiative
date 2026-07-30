@@ -1,0 +1,91 @@
+.triangle-board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.triangle-figure {
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+}
+
+.triangle-outline {
+  fill: var(--off-white);
+  stroke: var(--navy-900);
+  stroke-width: 3;
+  stroke-linejoin: round;
+}
+
+.triangle-vertex-label,
+.triangle-side-label {
+  fill: var(--navy-950);
+  font-size: 15px;
+  font-weight: 800;
+  text-anchor: middle;
+  dominant-baseline: middle;
+}
+
+.triangle-tick-mark {
+  stroke: var(--navy-900);
+  stroke-width: 3;
+}
+
+.triangle-right-angle-marker {
+  fill: none;
+  stroke: var(--navy-900);
+  stroke-width: 2.5;
+}
+
+.triangle-exterior-ray {
+  stroke: var(--gray-500);
+  stroke-width: 2;
+  stroke-dasharray: 6 5;
+}
+
+.triangle-exterior-label {
+  fill: var(--navy-950);
+  font-size: 15px;
+  font-weight: 800;
+  text-anchor: middle;
+  dominant-baseline: middle;
+}
+
+.triangle-altitude-line {
+  stroke: var(--blue-600);
+  stroke-width: 2;
+  stroke-dasharray: 5 4;
+}
+
+.triangle-altitude-label {
+  fill: var(--navy-950);
+  font-size: 14px;
+  font-weight: 800;
+  text-anchor: middle;
+  dominant-baseline: middle;
+}
+
+.game-feedback-heading {
+  margin: 0 0 6px;
+  font-weight: 850;
+}
+
+.game-feedback-line {
+  margin: 0;
+}
+
+.game-feedback-line + .game-feedback-line {
+  margin-top: 6px;
+}
+
+.triangle-answer-option-grid {
+  max-width: 620px;
+}
+
+.triangle-answer-option {
+  min-height: 76px;
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: var(--navy-950);
+}

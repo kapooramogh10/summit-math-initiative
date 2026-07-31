@@ -118,6 +118,12 @@ function PageLayout({ children }) {
 function Home() {
   return (
     <PageLayout>
+      <title>Summit Math Initiative | Free Math Courses & Games</title>
+      <meta
+        name="description"
+        content="Free, high-quality math courses, interactive games, and resources for motivated students — no cost, ever. Explore programs and free resources today."
+      />
+
       <main>
         <section className="home-hero">
           <div className="hero-content">
@@ -259,6 +265,12 @@ function Home() {
 function About() {
   return (
     <PageLayout>
+      <title>About Us | Summit Math Initiative</title>
+      <meta
+        name="description"
+        content="Learn about Summit Math Initiative's mission to provide free, high-quality mathematics education so financial circumstances never limit opportunity."
+      />
+
       <main>
         <section className="page-hero">
           <p className="eyebrow">Our mission</p>
@@ -368,6 +380,12 @@ function About() {
 function Founder() {
   return (
     <PageLayout>
+      <title>Meet the Founder | Summit Math Initiative</title>
+      <meta
+        name="description"
+        content="Meet Amogh Kapoor, founder and lead instructor of Summit Math Initiative, who turned his passion for competitive mathematics into free opportunities for students."
+      />
+
       <main>
         <section className="founder-page-hero">
           <div className="founder-page-photo-column">
@@ -496,6 +514,12 @@ function Founder() {
 function Impact() {
   return (
     <PageLayout>
+      <title>Our Impact | Summit Math Initiative</title>
+      <meta
+        name="description"
+        content="See Summit Math Initiative's early impact — hours of instruction, students taught, and free resources built — plus our plans to measure future growth."
+      />
+
       <main>
         <section className="page-hero">
           <p className="eyebrow">Our impact</p>
@@ -632,6 +656,12 @@ function Impact() {
 function Contact() {
   return (
     <PageLayout>
+      <title>Contact Us | Summit Math Initiative</title>
+      <meta
+        name="description"
+        content="Get in touch with Summit Math Initiative — students, parents, educators, and community partners are all welcome to connect with our team."
+      />
+
       <main>
         <section className="page-hero">
           <p className="eyebrow">Contact and interest</p>
@@ -713,6 +743,9 @@ function Contact() {
 function NotFound() {
   return (
     <PageLayout>
+      <title>Page Not Found | Summit Math Initiative</title>
+      <meta name="robots" content="noindex" />
+
       <main className="not-found-page">
         <p className="eyebrow">404 error</p>
 
@@ -745,6 +778,11 @@ function App() {
           path="/programs"
           element={
             <PageLayout>
+              <title>Programs & Sign Up | Summit Math Initiative</title>
+              <meta
+                name="description"
+                content="Browse Summit Math Initiative's free, live online math courses and register with a simple form. No fees, ever — just quality instruction for motivated students."
+              />
               <Signup />
             </PageLayout>
           }
@@ -754,6 +792,11 @@ function App() {
           path="/free-resources"
           element={
             <PageLayout>
+              <title>Free Math Games & Resources | Summit Math Initiative</title>
+              <meta
+                name="description"
+                content="Play free interactive math games covering number theory, fractions, algebra, geometry, and shape patterns — built for motivated students of all levels."
+              />
               <FreeResources />
             </PageLayout>
           }
@@ -763,6 +806,11 @@ function App() {
           path="/free-resources/number-theory-sort"
           element={
             <PageLayout>
+              <title>Number Theory Sort Game | Summit Math Initiative</title>
+              <meta
+                name="description"
+                content="Sort numbers by primes, composites, factors, multiples, and more in this free interactive number theory practice game for grades 5 and up."
+              />
               <NumberTheoryGame />
             </PageLayout>
           }
@@ -772,6 +820,11 @@ function App() {
           path="/free-resources/shape-patterns"
           element={
             <PageLayout>
+              <title>Shape Patterns Game | Summit Math Initiative</title>
+              <meta
+                name="description"
+                content="Practice figure matrices, shape classification, and paper folding puzzles with this free interactive shape patterns game for grades 3 and up."
+              />
               <ShapePatternsGame />
             </PageLayout>
           }
@@ -781,6 +834,11 @@ function App() {
           path="/free-resources/fraction-decimal-percent-sort"
           element={
             <PageLayout>
+              <title>Fractions, Decimals & Percents Game | Summit Math Initiative</title>
+              <meta
+                name="description"
+                content="Sort fractions, decimals, and percents by equivalence and comparison rules in this free interactive practice game for grades 4 through 6."
+              />
               <FractionDecimalPercentGame />
             </PageLayout>
           }
@@ -790,6 +848,11 @@ function App() {
           path="/free-resources/algebra-balance"
           element={
             <PageLayout>
+              <title>Algebra Equation Balance Game | Summit Math Initiative</title>
+              <meta
+                name="description"
+                content="Solve for x by balancing equations across easy, medium, and hard levels in this free interactive algebra practice game for grades 5 through 8."
+              />
               <AlgebraBalanceGame />
             </PageLayout>
           }
@@ -799,6 +862,11 @@ function App() {
           path="/free-resources/triangle-properties"
           element={
             <PageLayout>
+              <title>Triangle Properties Explorer | Summit Math Initiative</title>
+              <meta
+                name="description"
+                content="Explore triangle angles, sides, and theorems including the Pythagorean theorem in this free interactive geometry game for grades 5 through 8."
+              />
               <TrianglePropertiesGame />
             </PageLayout>
           }

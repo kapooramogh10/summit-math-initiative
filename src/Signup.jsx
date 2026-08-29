@@ -43,18 +43,25 @@ function Signup() {
         </div>
 
         <div className="signup-course-grid">
-          <article className="signup-course-card signup-featured-course">
+          <article className="signup-course-card signup-closed-course">
             <div className="signup-course-top">
               <div>
-                <span className="signup-course-label">
+                <span className="signup-course-label signup-closed-label">
                   August 2026 Program
                 </span>
 
                 <h2>5th Grade CogAT Bootcamp</h2>
               </div>
 
-              <span className="signup-free-badge">Free</span>
+              <span className="signup-closed-badge">
+                Registration Closed
+              </span>
             </div>
+
+            <p className="signup-closed-note">
+              This session has already started and registration is closed.
+              Sign-ups are no longer being accepted for this course.
+            </p>
 
             <p className="signup-course-description">
               In many Illinois school districts, fifth-grade students take the
@@ -73,7 +80,7 @@ function Signup() {
               confidence.
             </p>
 
-            <div className="signup-schedule-box">
+            <div className="signup-schedule-box signup-schedule-box-closed">
               <div className="signup-schedule-heading">
                 <div>
                   <span>August 2026 schedule</span>
@@ -124,18 +131,13 @@ function Signup() {
 
               <div>
                 <span>Registration</span>
-                <strong>Google Form</strong>
+                <strong>Closed</strong>
               </div>
             </div>
 
-            <a
-              className="signup-button"
-              href={signupFormLink}
-              target="_blank"
-              rel="noreferrer"
-            >
-              Sign Up for CogAT Bootcamp
-            </a>
+            <span className="signup-button signup-button-disabled">
+              Sign-Ups Closed
+            </span>
           </article>
 
           <article className="signup-course-card signup-closed-course">

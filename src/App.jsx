@@ -219,7 +219,7 @@ function Home() {
         <section className="home-founder-preview">
           <div className="home-founder-photo">
             <img
-              src="/amogh-founder.jpg"
+              src="/amogh-founder.png"
               alt="Amogh Kapoor, founder of Summit Math Initiative"
             />
           </div>
@@ -391,7 +391,7 @@ function Founder() {
           <div className="founder-page-photo-column">
             <div className="founder-photo-frame">
               <img
-                src="/amogh-founder.jpg"
+                src="/amogh-founder.png"
                 alt="Amogh Kapoor, founder of Summit Math Initiative"
                 className="founder-photo"
               />

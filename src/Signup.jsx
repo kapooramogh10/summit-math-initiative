@@ -43,6 +43,185 @@ function Signup() {
         </div>
 
         <div className="signup-course-grid">
+          <article className="signup-course-card signup-featured-course">
+            <div className="signup-course-top">
+              <div>
+                <span className="signup-course-label">
+                  October–November 2026 Program
+                </span>
+
+                <h2>Intro to Medicine</h2>
+              </div>
+
+              <span className="signup-free-badge">Free</span>
+            </div>
+
+            <p className="signup-course-description">
+              Intro to Medicine is designed for students interested in
+              exploring the medical field. Students will learn about
+              microbials, drugs, infections, and diseases while getting an
+              introduction to the many different fields within medicine and
+              the technology used in modern healthcare.
+            </p>
+
+            <p className="signup-course-description">
+              Through case studies and real-world examples, students will
+              start to think like future medical professionals. Classes are
+              taught by highschoolers passionate about medicine, with
+              professional guest speakers joining throughout the course to
+              share their expertise.
+            </p>
+
+            <div className="signup-course-credits">
+              <span className="signup-credit">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <circle
+                    cx="9"
+                    cy="8"
+                    r="3"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                  />
+                  <path
+                    d="M3 20c0-3 2.7-5 6-5s6 2 6 5"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                  />
+                  <circle
+                    cx="17"
+                    cy="9"
+                    r="2.5"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                  />
+                  <path
+                    d="M15.5 13.2c2.4.4 4.5 1.9 4.5 4.3"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                  />
+                </svg>
+                Audience: Grades 5–8
+              </span>
+
+              <span className="signup-credit">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path
+                    d="M4 20c0-3.5 3.5-6 8-6s8 2.5 8 6"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                  />
+                  <circle
+                    cx="12"
+                    cy="7"
+                    r="4"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                  />
+                </svg>
+                Curriculum developed by: Sathvik &amp; Amogh
+              </span>
+
+              <span className="signup-credit">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path
+                    d="M12 4 2 9l10 5 10-5-10-5Z"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinejoin="round"
+                  />
+                  <path
+                    d="M6 11v5c0 1.5 2.5 3 6 3s6-1.5 6-3v-5"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+                Taught by: Sathvik
+              </span>
+
+              <span className="signup-credit">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path
+                    d="M2 12s3.5-6.5 10-6.5S22 12 22 12s-3.5 6.5-10 6.5S2 12 2 12Z"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinejoin="round"
+                  />
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="3"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                  />
+                </svg>
+                Overseen by: Amogh
+              </span>
+            </div>
+
+            <div className="signup-schedule-box">
+              <div className="signup-schedule-heading">
+                <div>
+                  <span>October–November 2026 schedule</span>
+                  <strong>8 total classes</strong>
+                </div>
+
+                <span className="signup-online-badge">Online</span>
+              </div>
+
+              <div className="signup-schedule-columns">
+                <div>
+                  <h3>Sundays</h3>
+
+                  <p>12:00 PM–1:00 PM Central Time</p>
+
+                  <span>
+                    October 11, 18, and 25
+                    <br />
+                    November 1, 8, 15, 22, and 29
+                  </span>
+
+                  <strong>8 Sunday classes</strong>
+                </div>
+              </div>
+            </div>
+
+            <div className="signup-course-details">
+              <div>
+                <span>Format</span>
+                <strong>Zoom or Google Meet</strong>
+              </div>
+
+              <div>
+                <span>Cost</span>
+                <strong>Completely free</strong>
+              </div>
+
+              <div>
+                <span>Course length</span>
+                <strong>8 classes, October 11–November 29, 2026</strong>
+              </div>
+
+              <div>
+                <span>Registration</span>
+                <strong>Google Form</strong>
+              </div>
+            </div>
+
+            <a
+              className="signup-button"
+              href={signupFormLink}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Sign Up for Intro to Medicine
+            </a>
+          </article>
+
           <article className="signup-course-card signup-closed-course">
             <div className="signup-course-top">
               <div>
@@ -79,6 +258,46 @@ function Signup() {
               question formats and approach the assessment with greater
               confidence.
             </p>
+
+            <div className="signup-course-credits">
+              <span className="signup-credit">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path
+                    d="M4 20c0-3.5 3.5-6 8-6s8 2.5 8 6"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                  />
+                  <circle
+                    cx="12"
+                    cy="7"
+                    r="4"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                  />
+                </svg>
+                Course developed by: Amogh
+              </span>
+
+              <span className="signup-credit">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path
+                    d="M12 4 2 9l10 5 10-5-10-5Z"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinejoin="round"
+                  />
+                  <path
+                    d="M6 11v5c0 1.5 2.5 3 6 3s6-1.5 6-3v-5"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+                Taught by: Amogh
+              </span>
+            </div>
 
             <div className="signup-schedule-box signup-schedule-box-closed">
               <div className="signup-schedule-heading">
@@ -176,6 +395,46 @@ function Signup() {
               patterns, and become more confident when solving challenging
               mathematics questions.
             </p>
+
+            <div className="signup-course-credits">
+              <span className="signup-credit">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path
+                    d="M4 20c0-3.5 3.5-6 8-6s8 2.5 8 6"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                  />
+                  <circle
+                    cx="12"
+                    cy="7"
+                    r="4"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                  />
+                </svg>
+                Course developed by: Amogh
+              </span>
+
+              <span className="signup-credit">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path
+                    d="M12 4 2 9l10 5 10-5-10-5Z"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinejoin="round"
+                  />
+                  <path
+                    d="M6 11v5c0 1.5 2.5 3 6 3s6-1.5 6-3v-5"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+                Taught by: Amogh
+              </span>
+            </div>
 
             <div className="signup-schedule-box signup-schedule-box-closed">
               <div className="signup-schedule-heading">

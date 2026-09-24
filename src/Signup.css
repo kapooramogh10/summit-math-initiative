@@ -154,6 +154,31 @@
   line-height: 1.82;
 }
 
+.signup-course-credits {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.signup-credit {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border-radius: 999px;
+  background: var(--blue-100);
+  color: var(--blue-600);
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.signup-credit svg {
+  width: 15px;
+  height: 15px;
+  flex-shrink: 0;
+}
+
 .signup-course-details {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));

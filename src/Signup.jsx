@@ -203,6 +203,188 @@ function Signup() {
             </a>
           </article>
 
+          <article className="signup-course-card signup-featured-course">
+            <div className="signup-course-top">
+              <div>
+                <span className="signup-course-label">
+                  October–December 2026 Program
+                </span>
+
+                <h2>Intro to Geometry</h2>
+              </div>
+
+              <span className="signup-free-badge">Free</span>
+            </div>
+
+            <p className="signup-course-description">
+              Intro to Geometry introduces students to the foundational
+              building blocks of geometry through clear, hands-on lessons.
+              Students will explore lines, angles, triangles, circles, area,
+              perimeter, 3D shapes, and more, building a strong visual and
+              mathematical understanding of shapes and space.
+            </p>
+
+            <p className="signup-course-description">
+              The course emphasizes problem-solving and real-world
+              applications, helping students see how geometric thinking
+              connects to everyday life. Students will practice measuring,
+              constructing, and reasoning about shapes while building
+              confidence tackling geometry problems of increasing
+              difficulty.
+            </p>
+
+            <div className="signup-course-credits">
+              <span className="signup-credit">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <circle
+                    cx="9"
+                    cy="8"
+                    r="3"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                  />
+                  <path
+                    d="M3 20c0-3 2.7-5 6-5s6 2 6 5"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                  />
+                  <circle
+                    cx="17"
+                    cy="9"
+                    r="2.5"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                  />
+                  <path
+                    d="M15.5 13.2c2.4.4 4.5 1.9 4.5 4.3"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                  />
+                </svg>
+                Audience: Grades 5–8
+              </span>
+
+              <span className="signup-credit">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path
+                    d="M4 20c0-3.5 3.5-6 8-6s8 2.5 8 6"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                  />
+                  <circle
+                    cx="12"
+                    cy="7"
+                    r="4"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                  />
+                </svg>
+                Curriculum developed by: Mukund
+              </span>
+
+              <span className="signup-credit">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path
+                    d="M12 4 2 9l10 5 10-5-10-5Z"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinejoin="round"
+                  />
+                  <path
+                    d="M6 11v5c0 1.5 2.5 3 6 3s6-1.5 6-3v-5"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+                Taught by: Mukund
+              </span>
+
+              <span className="signup-credit">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path
+                    d="M2 12s3.5-6.5 10-6.5S22 12 22 12s-3.5 6.5-10 6.5S2 12 2 12Z"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinejoin="round"
+                  />
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="3"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                  />
+                </svg>
+                Overseen by: Amogh
+              </span>
+            </div>
+
+            <div className="signup-schedule-box">
+              <div className="signup-schedule-heading">
+                <div>
+                  <span>October–December 2026 schedule</span>
+                  <strong>10 total classes</strong>
+                </div>
+
+                <span className="signup-online-badge">Online</span>
+              </div>
+
+              <div className="signup-schedule-columns">
+                <div>
+                  <h3>Fridays</h3>
+
+                  <p>5:00 PM–6:00 PM Central Time</p>
+
+                  <span>
+                    October 16, 23, and 30
+                    <br />
+                    November 6, 13, 20, and 27
+                    <br />
+                    December 4, 11, and 18
+                  </span>
+
+                  <strong>10 Friday classes</strong>
+                </div>
+              </div>
+            </div>
+
+            <div className="signup-course-details">
+              <div>
+                <span>Format</span>
+                <strong>Zoom or Google Meet</strong>
+              </div>
+
+              <div>
+                <span>Cost</span>
+                <strong>Completely free</strong>
+              </div>
+
+              <div>
+                <span>Course length</span>
+                <strong>10 classes, October 16–December 18, 2026</strong>
+              </div>
+
+              <div>
+                <span>Registration</span>
+                <strong>Google Form</strong>
+              </div>
+            </div>
+
+            <a
+              className="signup-button"
+              href={signupFormLink}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Sign Up for Intro to Geometry
+            </a>
+          </article>
+
           <article className="signup-course-card signup-closed-course">
             <div className="signup-course-top">
               <div>

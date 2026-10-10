@@ -121,7 +121,7 @@ function Signup() {
                     strokeWidth="2"
                   />
                 </svg>
-                Curriculum developed by: Sathvik &amp; Amogh
+                Curriculum developed by: Aadish &amp; Amogh
               </span>
 
               <span className="signup-credit">
@@ -140,7 +140,7 @@ function Signup() {
                     strokeLinejoin="round"
                   />
                 </svg>
-                Taught by: Sathvik &amp; Amogh
+                Taught by: Aadish &amp; Amogh
               </span>
             </div>
 

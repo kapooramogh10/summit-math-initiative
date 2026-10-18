@@ -535,12 +535,12 @@ function Impact() {
 
         <section className="section impact-statistics">
           <div className="stat-card">
-            <strong>36</strong>
+            <strong>54</strong>
             <span>Hours of instruction</span>
           </div>
 
           <div className="stat-card">
-            <strong>21</strong>
+            <strong>44</strong>
             <span>Students taught</span>
           </div>
 

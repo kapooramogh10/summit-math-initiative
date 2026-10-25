@@ -15,6 +15,11 @@ import FractionDecimalPercentGame from "./FractionDecimalPercentGame.jsx";
 import AlgebraBalanceGame from "./AlgebraBalanceGame.jsx";
 import TrianglePropertiesGame from "./TrianglePropertiesGame.jsx";
 import "./SiteEnhancements.css";
+import {
+  InteractionPicker,
+  InteractionWeekRoute,
+  InteractionWeeks,
+} from "./Interaction.jsx";
 
 const contactEmail = "kapooramogh10@gmail.com";
 
@@ -69,6 +74,10 @@ function Navbar() {
 
         <NavLink className={navLinkClass} to="/contact">
           Contact
+        </NavLink>
+
+        <NavLink className={navLinkClass} to="/interaction">
+          INTERACTION
         </NavLink>
       </nav>
     </header>
@@ -845,6 +854,33 @@ function App() {
 
         <Route path="/impact" element={<Impact />} />
         <Route path="/contact" element={<Contact />} />
+        <Route
+          path="/interaction"
+          element={
+            <PageLayout>
+              <title>Interaction | Summit Math Initiative</title>
+              <InteractionPicker />
+            </PageLayout>
+          }
+        />
+        <Route
+          path="/interaction/intro-to-medicine"
+          element={
+            <PageLayout>
+              <title>Intro to Medicine | Summit Math Initiative</title>
+              <InteractionWeeks />
+            </PageLayout>
+          }
+        />
+        <Route
+          path="/interaction/intro-to-medicine/:weekSlug"
+          element={
+            <PageLayout>
+              <title>Week 3 Case Study | Intro to Medicine</title>
+              <InteractionWeekRoute />
+            </PageLayout>
+          }
+        />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </>

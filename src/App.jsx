@@ -395,6 +395,37 @@ function Founder() {
               <div className="founder-page-photo-column">
                 <div className="founder-photo-frame">
                   <img
+                    src="/amogh-founder.png"
+                    alt="Amogh Kapoor"
+                    className="founder-photo"
+                  />
+                </div>
+
+                <div className="founder-photo-caption">
+                  <strong>Amogh</strong>
+                  <span>Founder</span>
+                </div>
+              </div>
+
+              <div className="founder-page-content">
+                <h2>Meet Amogh.</h2>
+
+                <p className="founder-page-introduction">
+                  Amogh is the founder of Summit Math Initiative.
+                </p>
+
+                <p>
+                  He is interested in STEM, including competitive math,
+                  biomedical engineering, aerial robotics, and AI, and wants to
+                  support the next generation of STEM students.
+                </p>
+              </div>
+            </article>
+
+            <article className="team-member-card">
+              <div className="founder-page-photo-column">
+                <div className="founder-photo-frame">
+                  <img
                     src="/Aadish.jpeg"
                     alt="Aadish, a new member of Summit Math Initiative"
                     className="founder-photo"
@@ -415,7 +446,7 @@ function Founder() {
                   Initiative.
                 </p>
 
-                <p>He is currently co-leading our Intro to Medicine course.</p>
+                <p>He is teaching our Intro to Medicine course.</p>
               </div>
             </article>
 

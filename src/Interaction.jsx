@@ -231,7 +231,7 @@ function scoreMessage(score) {
   return "Good effort! Every doctor keeps learning. Read the Doctor's Notes and try again.";
 }
 
-function Summary({ page, name, score, onPlayAgain }) {
+function Summary({ page, name, score, onRestartCase }) {
   const studentName = name.trim()
     ? `Case closed, Student Doctor ${name.trim()}!`
     : "Case closed, Student Doctor!";
@@ -279,7 +279,7 @@ function Summary({ page, name, score, onPlayAgain }) {
         <ul>{lessons.map((lesson) => <li key={lesson}>{lesson}</li>)}</ul>
       </section>
       <div className="interaction-summary-actions">
-        <button className="primary-button" type="button" onClick={onPlayAgain}>Play again</button>
+        <button className="primary-button" type="button" onClick={onRestartCase}>Restart case</button>
         <Link className="secondary-button" to={coursePath}>Back to weeks</Link>
       </div>
     </section>
@@ -340,7 +340,7 @@ function CasePlayer() {
     }));
   }
 
-  function playAgain() {
+  function restartCase() {
     removeProgress();
     setProgress({ pageIndex: 0, answers: {}, name: "" });
   }
@@ -373,7 +373,12 @@ function CasePlayer() {
             <span style={{ width: `${((progress.pageIndex + 1) / pages.length) * 100}%` }} />
           </div>
         </div>
-        <Link className="interaction-exit" to={coursePath}>Exit case</Link>
+        <div className="interaction-header-actions">
+          <button className="interaction-restart" type="button" onClick={restartCase}>
+            Restart case
+          </button>
+          <Link className="interaction-exit" to={coursePath}>Exit case</Link>
+        </div>
       </header>
 
       <div className="interaction-player-nav">
@@ -385,7 +390,7 @@ function CasePlayer() {
       </div>
 
       {page.type === "summary" ? (
-        <Summary page={page} name={progress.name} score={score} onPlayAgain={playAgain} />
+        <Summary page={page} name={progress.name} score={score} onRestartCase={restartCase} />
       ) : (
         <article className="interaction-page-card">
           <p className="eyebrow">{page.chapter}</p>

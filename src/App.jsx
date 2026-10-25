@@ -52,7 +52,7 @@ function Navbar() {
         </NavLink>
 
         <NavLink className={navLinkClass} to="/founder">
-          Founder
+          Meet the Team
         </NavLink>
 
         <NavLink className={navLinkClass} to="/programs">
@@ -84,14 +84,14 @@ function Footer() {
         </Link>
 
         <p>
-          Expanding access to high-quality mathematics education for motivated
+          Free learning opportunities in math, science, and STEM for curious
           students.
         </p>
       </div>
 
       <div className="footer-links">
         <Link to="/about">About</Link>
-        <Link to="/founder">Founder</Link>
+        <Link to="/founder">Meet the Team</Link>
         <Link to="/programs">Programs & Sign Up</Link>
         <Link to="/free-resources">Free Resources</Link>
         <Link to="/impact">Impact</Link>
@@ -118,25 +118,25 @@ function PageLayout({ children }) {
 function Home() {
   return (
     <PageLayout>
-      <title>Summit Math Initiative | Free Math Courses & Games</title>
+      <title>Summit Math Initiative | Free Math & Science Learning</title>
       <meta
         name="description"
-        content="Free, high-quality math courses, interactive games, and resources for motivated students — no cost, ever. Explore programs and free resources today."
+        content="Explore free math and science courses, interactive activities, and learning resources from Summit Math Initiative."
       />
 
       <main>
         <section className="home-hero">
           <div className="hero-content">
-            <p className="eyebrow">Free mathematics education</p>
+            <p className="eyebrow">Free math and science learning</p>
 
             <h1>
-              Helping motivated students reach new heights in mathematics.
+              Explore math and science. Discover what you can do.
             </h1>
 
             <p className="hero-description">
-              Summit Math Initiative provides free, high-quality mathematics
-              courses, resources, and support so financial circumstances never
-              limit a student&apos;s opportunity to learn.
+              Summit Math Initiative offers free courses and resources that
+              help students build knowledge, follow their curiosity, and explore
+              ideas across math and science.
             </p>
 
             <div className="button-row">
@@ -172,11 +172,11 @@ function Home() {
           <div className="section-heading centered-heading">
             <p className="eyebrow">What guides us</p>
 
-            <h2>Opportunity should be determined by motivation.</h2>
+            <h2>Curiosity can lead to new possibilities.</h2>
 
             <p>
-              Students with the drive to learn should have access to the
-              instruction and resources they need to succeed.
+              Every student should have room to ask questions, explore new
+              ideas, and grow their understanding of math and science.
             </p>
           </div>
 
@@ -184,33 +184,33 @@ function Home() {
             <article className="information-card">
               <span className="card-number">01</span>
 
-              <h3>Accessible</h3>
+              <h3>Open to Everyone</h3>
 
               <p>
-                Our programs are free so financial barriers do not prevent
-                students from exploring advanced mathematics.
+                Our courses and resources are free, making it easier for
+                students to explore new subjects and interests.
               </p>
             </article>
 
             <article className="information-card">
               <span className="card-number">02</span>
 
-              <h3>Challenging</h3>
+              <h3>Explore and Discover</h3>
 
               <p>
-                Students learn to reason creatively, communicate ideas, and
-                solve unfamiliar problems.
+                Students can build understanding, ask questions, and connect
+                what they learn to the world around them.
               </p>
             </article>
 
             <article className="information-card">
               <span className="card-number">03</span>
 
-              <h3>Student-Led</h3>
+              <h3>Growing Together</h3>
 
               <p>
-                Summit Math Initiative was created by a student who wanted to
-                share meaningful mathematics opportunities with others.
+                We are building a welcoming community for the next generation
+                of math and science learners.
               </p>
             </article>
           </div>
@@ -220,23 +220,23 @@ function Home() {
           <div className="home-founder-photo">
             <img
               src="/amogh-founder.png"
-              alt="Amogh Kapoor, founder of Summit Math Initiative"
+              alt="Amogh Kapoor"
             />
           </div>
 
           <div className="home-founder-text">
-            <p className="eyebrow">Meet the founder</p>
+            <p className="eyebrow">Meet Amogh</p>
 
-            <h2>Built from a passion for mathematics and expanding access.</h2>
+            <h2>Inspired by the many possibilities of STEM.</h2>
 
             <p>
-              Amogh Kapoor founded Summit Math Initiative after developing his
-              own competitive mathematics skills through independent study and
-              earning recognition at the state and regional levels.
+              Amogh is very interested in STEM, including competitive math,
+              biomedical engineering, aerial robotics, and AI. He wants to be
+              part of the journey of the next generation of STEM students.
             </p>
 
             <Link className="primary-button" to="/founder">
-              Read Amogh&apos;s Story
+              Meet the Team
             </Link>
           </div>
         </section>
@@ -245,11 +245,11 @@ function Home() {
           <div>
             <p className="eyebrow light-eyebrow">Free learning tools</p>
 
-            <h2>Practice mathematics through interactive challenges.</h2>
+            <h2>Explore math through interactive activities.</h2>
 
             <p>
-              Explore free games and resources that build reasoning, number
-              sense, and problem-solving skills.
+              Try free math activities that build reasoning, number sense, and
+              problem-solving skills, with more STEM resources to come.
             </p>
           </div>
 
@@ -268,19 +268,18 @@ function About() {
       <title>About Us | Summit Math Initiative</title>
       <meta
         name="description"
-        content="Learn about Summit Math Initiative's mission to provide free, high-quality mathematics education so financial circumstances never limit opportunity."
+        content="Learn how Summit Math Initiative creates free opportunities for students to explore math, science, and STEM."
       />
 
       <main>
         <section className="page-hero">
           <p className="eyebrow">Our mission</p>
 
-          <h1>Every motivated student deserves the opportunity to excel.</h1>
+          <h1>Every student deserves the chance to explore STEM.</h1>
 
           <p>
-            Summit Math Initiative believes that access to exceptional
-            mathematics education should not depend on a family&apos;s
-            financial circumstances.
+            Summit Math Initiative makes math and science learning more
+            accessible through free courses, activities, and resources.
           </p>
         </section>
 
@@ -288,26 +287,24 @@ function About() {
           <div>
             <p className="eyebrow">Why we exist</p>
 
-            <h2>Talent should never be overlooked because of cost.</h2>
+            <h2>Curiosity deserves the opportunity to grow.</h2>
           </div>
 
           <div className="large-body-text">
             <p>
-              Many students are eager to explore mathematics beyond the
-              classroom but do not have access to expensive enrichment
-              programs, private tutoring, or specialized resources.
+              Students are curious about the world around them, but meaningful
+              opportunities to explore math and science can be hard to find.
             </p>
 
             <p>
-              Summit Math Initiative works to reduce that barrier by providing
-              free courses that strengthen problem-solving skills, confidence,
-              and mathematical curiosity.
+              Summit Math Initiative offers free courses and resources where
+              students can build knowledge, practice problem-solving, and
+              explore new ideas.
             </p>
 
             <p>
-              As the initiative grows, we plan to develop additional courses
-              and free resources for students with different interests,
-              experience levels, and academic goals.
+              As the initiative grows, we plan to create more opportunities
+              across math, science, and other areas of STEM.
             </p>
           </div>
         </section>
@@ -324,8 +321,8 @@ function About() {
               <h3>Access</h3>
 
               <p>
-                High-quality academic opportunities should be available
-                regardless of financial circumstances.
+                Learning opportunities should be welcoming and free for
+                students to explore.
               </p>
             </article>
 
@@ -333,8 +330,8 @@ function About() {
               <h3>Growth</h3>
 
               <p>
-                Progress comes from curiosity, persistence, reflection, and a
-                willingness to attempt difficult problems.
+                Asking questions, trying new ideas, and learning from mistakes
+                help students grow.
               </p>
             </article>
 
@@ -342,8 +339,8 @@ function About() {
               <h3>Community</h3>
 
               <p>
-                Students grow when they can learn with others, ask questions,
-                and share different problem-solving approaches.
+                Students can learn from one another and share their different
+                perspectives and interests.
               </p>
             </article>
           </div>
@@ -352,18 +349,18 @@ function About() {
         <section className="section about-founder-section">
           <div className="about-founder-card">
             <div>
-              <p className="eyebrow light-eyebrow">Our story</p>
+              <p className="eyebrow light-eyebrow">Meet Amogh</p>
 
-              <h2>Created by a student who understands self-directed learning.</h2>
+              <h2>Curious about STEM and the next generation of learners.</h2>
 
               <p>
-                Summit Math Initiative began with one student independently
-                developing an eight-week mathematics curriculum and teaching it
-                to motivated students for free.
+                Amogh is very interested in STEM, including competitive math,
+                biomedical engineering, aerial robotics, and AI. He wants to be
+                part of the journey of the next generation of STEM students.
               </p>
 
               <Link className="light-button" to="/founder">
-                Meet the Founder
+                Meet the Team
               </Link>
             </div>
 
@@ -380,131 +377,74 @@ function About() {
 function Founder() {
   return (
     <PageLayout>
-      <title>Meet the Founder | Summit Math Initiative</title>
+      <title>Meet the Team | Summit Math Initiative</title>
       <meta
         name="description"
-        content="Meet Amogh Kapoor, founder and lead instructor of Summit Math Initiative, who turned his passion for competitive mathematics into free opportunities for students."
+        content="Meet the Summit Math Initiative team, including new members Aadish and Mukund, who are being onboarded and leading courses."
       />
 
       <main>
         <section className="founder-page-hero">
-          <div className="founder-page-photo-column">
-            <div className="founder-photo-frame">
-              <img
-                src="/amogh-founder.png"
-                alt="Amogh Kapoor, founder of Summit Math Initiative"
-                className="founder-photo"
-              />
-            </div>
-
-            <div className="founder-photo-caption">
-              <strong>Amogh Kapoor</strong>
-              <span>Founder and Lead Instructor</span>
-            </div>
+          <div className="team-page-heading">
+            <p className="eyebrow">Meet the Team</p>
+            <h1>Meet the people helping students reach new heights.</h1>
           </div>
 
-          <div className="founder-page-content">
-            <p className="eyebrow">Meet the founder</p>
+          <div className="team-members-grid">
+            <article className="team-member-card">
+              <div className="founder-page-photo-column">
+                <div className="founder-photo-frame">
+                  <img
+                    src="/Aadish.jpeg"
+                    alt="Aadish, a new member of Summit Math Initiative"
+                    className="founder-photo"
+                  />
+                </div>
 
-            <h1>
-              Turning a passion for mathematics into opportunities for others.
-            </h1>
+                <div className="founder-photo-caption">
+                  <strong>Aadish</strong>
+                  <span>New team member</span>
+                </div>
+              </div>
 
-            <p className="founder-page-introduction">
-              Amogh Kapoor is the founder and lead instructor of Summit Math
-              Initiative. He has a strong background in competitive mathematics
-              and has earned recognition at both the state and regional levels.
-            </p>
+              <div className="founder-page-content">
+                <h2>Welcome, Aadish.</h2>
 
-            <p>
-              Much of Amogh&apos;s advanced mathematics learning was
-              self-directed. Through independent study, competition
-              preparation, and challenging problem solving, he experienced both
-              the excitement of advanced mathematics and the difficulty of
-              finding organized, high-quality resources.
-            </p>
+                <p className="founder-page-introduction">
+                  Aadish is currently being onboarded into Summit Math
+                  Initiative.
+                </p>
 
-            <p>
-              That experience inspired him to create Summit Math Initiative. He
-              believes motivated students should have access to strong
-              instruction, useful learning tools, mentorship, and challenging
-              academic opportunities regardless of their financial
-              circumstances.
-            </p>
-
-            <p>
-              Amogh independently developed and taught Summit Math
-              Initiative&apos;s inaugural eight-week mathematics curriculum. He
-              now plans to expand the initiative by creating additional free
-              courses and resources, measuring student growth, and reaching
-              more students who are eager to learn.
-            </p>
-
-            <div className="founder-page-actions">
-              <Link className="primary-button" to="/programs">
-                View Programs & Sign Up
-              </Link>
-
-              <Link className="secondary-button" to="/free-resources">
-                Explore Free Resources
-              </Link>
-            </div>
-          </div>
-        </section>
-
-        <section className="section founder-background-section">
-          <div className="section-heading centered-heading">
-            <p className="eyebrow">Background and purpose</p>
-
-            <h2>Experience that shaped the mission.</h2>
-          </div>
-
-          <div className="three-card-grid">
-            <article className="information-card founder-background-card">
-              <span className="card-number">01</span>
-
-              <h3>Competitive Mathematics</h3>
-
-              <p>
-                Amogh has developed his problem-solving skills through
-                mathematics competitions and has received recognition at the
-                state and regional levels.
-              </p>
+                <p>He is currently co-leading our Intro to Medicine course.</p>
+              </div>
             </article>
 
-            <article className="information-card founder-background-card">
-              <span className="card-number">02</span>
+            <article className="team-member-card">
+              <div className="founder-page-photo-column">
+                <div
+                  className="founder-photo-frame team-member-photo-placeholder"
+                  role="img"
+                  aria-label="Photo coming soon for Mukund"
+                />
 
-              <h3>Self-Directed Learning</h3>
+                <div className="founder-photo-caption">
+                  <strong>Mukund</strong>
+                  <span>New team member</span>
+                </div>
+              </div>
 
-              <p>
-                A large part of his mathematics education came through
-                independent learning, practice, experimentation, and searching
-                for challenging resources.
-              </p>
-            </article>
+              <div className="founder-page-content">
+                <h2>Welcome, Mukund.</h2>
 
-            <article className="information-card founder-background-card">
-              <span className="card-number">03</span>
+                <p className="founder-page-introduction">
+                  Mukund is currently being onboarded into Summit Math
+                  Initiative.
+                </p>
 
-              <h3>Expanding Access</h3>
-
-              <p>
-                Summit Math Initiative was created so motivated students can
-                receive high-quality mathematics education without cost
-                preventing them from participating.
-              </p>
+                <p>He is currently leading our Intro to Geometry course.</p>
+              </div>
             </article>
           </div>
-        </section>
-
-        <section className="founder-quote-section">
-          <blockquote>
-            “Motivation and potential should determine a student&apos;s
-            opportunities—not their ability to pay for them.”
-          </blockquote>
-
-          <p>— Amogh Kapoor, Founder of Summit Math Initiative</p>
         </section>
       </main>
     </PageLayout>
@@ -527,9 +467,9 @@ function Impact() {
           <h1>Starting small and building something that lasts.</h1>
 
           <p>
-            Summit Math Initiative began with one independently developed
-            curriculum, four inaugural students, and a commitment to providing
-            meaningful mathematics instruction for free.
+            We are creating free opportunities for students to explore math
+            and science, build skills, and discover where their curiosity can
+            take them.
           </p>
         </section>
 
@@ -576,8 +516,8 @@ function Impact() {
                 <h3>Student growth</h3>
 
                 <p>
-                  Pre-course and post-course assessments will help measure
-                  improvements in mathematical reasoning and confidence.
+                  Course activities and feedback can help us understand how
+                  students grow in their knowledge, skills, and confidence.
                 </p>
               </div>
             </article>
@@ -618,8 +558,7 @@ function Impact() {
             <h2>Student and parent experiences.</h2>
 
             <p>
-              Hear from parents about their experience with Summit Math
-              Initiative.
+              Hear from families about their learning experiences.
             </p>
           </div>
 
@@ -635,17 +574,6 @@ function Impact() {
               <span>— Coreen, Parent</span>
             </article>
 
-            <article className="testimonial-card">
-              <p>
-                “Amogh, you were an excellent tutor for my son during the
-                summer program. You brought relevant competition experience,
-                which made you especially well-suited for a course based on
-                math competitions. You helped my son build both skills and
-                confidence.”
-              </p>
-
-              <span>— Rajitha, Parent</span>
-            </article>
           </div>
         </section>
       </main>
@@ -666,7 +594,7 @@ function Contact() {
         <section className="page-hero">
           <p className="eyebrow">Contact and interest</p>
 
-          <h1>Help us build the next Summit Math program.</h1>
+          <h1>Help us build the next math or science program.</h1>
 
           <p>
             Students, parents, volunteers, educators, and community
@@ -696,8 +624,8 @@ function Contact() {
             <h2>Practice independently.</h2>
 
             <p>
-              Explore interactive mathematics games and learning tools that are
-              free for all students.
+              Explore free interactive math games and learning tools, with more
+              STEM resources planned.
             </p>
 
             <Link className="text-link" to="/free-resources">
@@ -711,8 +639,8 @@ function Contact() {
             <h2>Partner with Summit.</h2>
 
             <p>
-              Schools, libraries, community centers, mathematics organizations,
-              and youth programs can help us reach more students.
+              Schools, libraries, community centers, STEM organizations, and
+              youth programs can help us reach more students.
             </p>
 
             <a className="text-link" href={`mailto:${contactEmail}`}>
@@ -781,7 +709,7 @@ function App() {
               <title>Programs & Sign Up | Summit Math Initiative</title>
               <meta
                 name="description"
-                content="Browse Summit Math Initiative's free, live online math courses and register with a simple form. No fees, ever — just quality instruction for motivated students."
+                content="Browse Summit Math Initiative's free online math and science courses and register with a simple form."
               />
               <Signup />
             </PageLayout>
@@ -792,10 +720,10 @@ function App() {
           path="/free-resources"
           element={
             <PageLayout>
-              <title>Free Math Games & Resources | Summit Math Initiative</title>
+              <title>Free Math & Science Resources | Summit Math Initiative</title>
               <meta
                 name="description"
-                content="Play free interactive math games covering number theory, fractions, algebra, geometry, and shape patterns — built for motivated students of all levels."
+                content="Explore free interactive math games and learning resources from Summit Math Initiative, with more math and science activities to come."
               />
               <FreeResources />
             </PageLayout>

@@ -7,11 +7,11 @@ function FreeResources() {
       <section className="resources-hero">
         <p className="eyebrow">Free learning tools</p>
 
-        <h1>Practice mathematics through interactive challenges.</h1>
+        <h1>Explore math through interactive activities.</h1>
 
         <p>
-          Explore free games and activities designed to strengthen mathematical
-          reasoning, pattern recognition, and problem-solving skills.
+          Try free games and activities that build math skills, encourage
+          curiosity, and make learning interactive.
         </p>
       </section>
 
@@ -23,8 +23,8 @@ function FreeResources() {
           </div>
 
           <p>
-            New activities will be added as Summit Math Initiative develops more
-            courses and learning materials.
+            New math and science activities will be added as Summit Math
+            Initiative develops more courses and learning materials.
           </p>
         </div>
 
@@ -289,8 +289,7 @@ function FreeResources() {
               <h3>More Free Resources</h3>
 
               <p>
-                Additional word-problem and problem-solving activities will
-                be added here.
+                More math and science activities will be added here.
               </p>
             </div>
           </article>
@@ -304,14 +303,13 @@ function FreeResources() {
           </p>
 
           <h2>
-            Practice tools should be available to every motivated student.
+            Learning tools should be available to every curious student.
           </h2>
         </div>
 
         <p>
-          These activities are designed to give students meaningful practice
-          without requiring paid subscriptions, tutoring programs, or expensive
-          preparation materials.
+          These free activities give students a way to explore and practice
+          without paid subscriptions or expensive learning materials.
         </p>
       </section>
     </main>

@@ -9,12 +9,12 @@ function Signup() {
       <section className="signup-hero">
         <p className="eyebrow">Course registration</p>
 
-        <h1>Choose a free Summit Math course.</h1>
+        <h1>Choose a free math or science course.</h1>
 
         <p className="signup-hero-description">
-          All Summit Math Initiative courses are completely free and taught
-          online through Zoom or Google Meet. Families can request enrollment
-          by completing our course registration form.
+          Summit Math Initiative courses are free and taught online through
+          Zoom or Google Meet. Families can request enrollment by completing
+          our course registration form.
         </p>
 
         <div className="signup-highlights">
@@ -392,7 +392,7 @@ function Signup() {
                   August 2026 Program
                 </span>
 
-                <h2>5th Grade CogAT Bootcamp</h2>
+                <h2>Reasoning & Problem-Solving Bootcamp</h2>
               </div>
 
               <span className="signup-closed-badge">
@@ -406,20 +406,16 @@ function Signup() {
             </p>
 
             <p className="signup-course-description">
-              In many Illinois school districts, fifth-grade students take the
-              CogAT as part of the process used to determine advanced or
-              accelerated middle-school math placement. This bootcamp will help
-              students become familiar with quantitative, verbal, and
-              nonverbal reasoning questions while developing stronger
-              problem-solving strategies.
+              This bootcamp introduced fifth-grade students to quantitative,
+              verbal, and visual reasoning through a variety of engaging
+              activities. Students practiced recognizing patterns, analyzing
+              relationships, and developing problem-solving strategies.
             </p>
 
             <p className="signup-course-description">
-              Students will practice recognizing patterns, analyzing
-              relationships, solving visual puzzles, and applying logical
-              reasoning. The goal is to help students understand the different
-              question formats and approach the assessment with greater
-              confidence.
+              Activities encouraged students to explain their thinking, try
+              different approaches, and build confidence with unfamiliar
+              problems.
             </p>
 
             <div className="signup-course-credits">
@@ -529,7 +525,7 @@ function Signup() {
                   June–August 2026 Program
                 </span>
 
-                <h2>AMC 8 Math Course</h2>
+                <h2>Math Problem-Solving Course</h2>
               </div>
 
               <span className="signup-closed-badge">
@@ -543,20 +539,17 @@ function Signup() {
             </p>
 
             <p className="signup-course-description">
-              The AMC 8 Math Course is designed for motivated middle-school
-              students who want to strengthen their mathematical reasoning and
-              prepare for competition-style problems. Students study number
-              theory, algebra, geometry, counting, probability, logic, and
-              creative problem-solving strategies while practicing questions
-              inspired by the AMC 8.
+              This course helped middle-school students strengthen their
+              mathematical reasoning through topics including number theory,
+              algebra, geometry, counting, probability, and logic. Students
+              practiced creative problem-solving and explored connections
+              across these areas of math.
             </p>
 
             <p className="signup-course-description">
-              The course focuses on understanding why strategies work instead
-              of simply memorizing formulas. Students learn how to approach
-              unfamiliar problems, explain their reasoning, recognize
-              patterns, and become more confident when solving challenging
-              mathematics questions.
+              Students explored why strategies work, practiced explaining
+              their reasoning, and learned to approach unfamiliar problems
+              with curiosity and confidence.
             </p>
 
             <div className="signup-course-credits">

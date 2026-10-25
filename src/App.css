@@ -562,10 +562,6 @@ a {
 /* FOUNDER PAGE */
 
 .founder-page-hero {
-  display: grid;
-  grid-template-columns: 0.78fr 1.22fr;
-  align-items: center;
-  gap: 85px;
   min-height: calc(100vh - 78px);
   padding: 90px 9%;
   background:
@@ -575,6 +571,39 @@ a {
       transparent 25%
     ),
     linear-gradient(120deg, #f8fafc, #e9f2fc);
+}
+
+.team-page-heading {
+  max-width: 850px;
+  margin: 0 auto 55px;
+  text-align: center;
+}
+
+.team-page-heading h1 {
+  margin: 0;
+  font-size: clamp(2.8rem, 5vw, 5rem);
+  letter-spacing: -0.065em;
+  line-height: 1.05;
+}
+
+.team-members-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 30px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.team-member-card {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  align-items: center;
+  gap: 28px;
+  padding: 28px;
+  border: 1px solid var(--gray-200);
+  border-radius: 30px;
+  background: var(--white);
+  box-shadow: var(--shadow);
 }
 
 .founder-page-photo-column {
@@ -590,6 +619,10 @@ a {
   border-radius: 36px;
   background: var(--gray-200);
   box-shadow: var(--shadow);
+}
+
+.team-member-photo-placeholder {
+  background: #d1d5db;
 }
 
 .founder-photo-frame::after {
@@ -639,6 +672,13 @@ a {
 
 .founder-page-content {
   max-width: 850px;
+}
+
+.team-member-card .founder-page-content h2 {
+  margin: 0;
+  font-size: clamp(1.8rem, 2.5vw, 2.6rem);
+  letter-spacing: -0.05em;
+  line-height: 1.08;
 }
 
 .founder-page-content h1 {
@@ -941,15 +981,18 @@ a {
   }
 
   .home-founder-preview,
-  .founder-page-hero,
   .split-section,
   .evidence-section {
     grid-template-columns: 1fr;
   }
 
-  .home-founder-photo,
-  .founder-page-photo-column {
+  .home-founder-photo {
     max-width: 470px;
+  }
+
+  .team-members-grid {
+    grid-template-columns: 1fr;
+    max-width: 760px;
   }
 
   .three-card-grid {
@@ -972,10 +1015,6 @@ a {
   .about-founder-initials {
     width: 180px;
     justify-self: start;
-  }
-
-  .founder-page-hero {
-    gap: 60px;
   }
 
   .impact-statistics {
@@ -1092,6 +1131,24 @@ a {
   .founder-page-hero {
     min-height: auto;
     padding: 75px 7%;
+  }
+
+  .team-page-heading {
+    margin-bottom: 35px;
+  }
+
+  .team-page-heading h1 {
+    font-size: clamp(2.6rem, 12vw, 4rem);
+  }
+
+  .team-member-card {
+    grid-template-columns: 1fr;
+    gap: 28px;
+    padding: 24px;
+  }
+
+  .team-member-card .founder-page-photo-column {
+    max-width: 380px;
   }
 
   .founder-page-content h1 {

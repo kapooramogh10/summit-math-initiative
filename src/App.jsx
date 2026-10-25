@@ -589,7 +589,8 @@ function Impact() {
             <h2>Student and parent experiences.</h2>
 
             <p>
-              Hear from families about their learning experiences.
+              Hear from parents about their experience with Summit Math
+              Initiative.
             </p>
           </div>
 
@@ -605,6 +606,17 @@ function Impact() {
               <span>— Coreen, Parent</span>
             </article>
 
+            <article className="testimonial-card">
+              <p>
+                “Amogh, you were an excellent tutor for my son during the
+                summer program. You brought relevant competition experience,
+                which made you especially well-suited for a course based on
+                math competitions. You helped my son build both skills and
+                confidence.”
+              </p>
+
+              <span>— Rajitha, Parent</span>
+            </article>
           </div>
         </section>
       </main>

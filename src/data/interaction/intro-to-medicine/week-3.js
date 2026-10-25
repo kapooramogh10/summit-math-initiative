@@ -10,7 +10,7 @@ const pages = [
     ],
     images: [
       {
-        file: "clinic.png",
+        file: "hospital+waiting+room.jpg",
         alt: "A friendly family clinic waiting room",
       },
       {

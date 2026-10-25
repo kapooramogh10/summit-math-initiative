@@ -525,7 +525,7 @@ function Impact() {
           </div>
 
           <div className="stat-card">
-            <strong>2</strong>
+            <strong>4</strong>
             <span>Courses taught</span>
           </div>
 
